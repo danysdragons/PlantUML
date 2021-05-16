@@ -4,7 +4,7 @@ Note: I am **not** the creator of PlantUML, and this repository does not host th
 
 PlantUML provides a declarative syntax for generating various UML diagrams: class diagrams, sequence diagrams, use case diagrams etc.
 
-An example of the markup for a state transition diagram
+An example of the markup for a state transition diagram:
 
 
 ```
@@ -37,7 +37,7 @@ State3 --> [*] : Aborted
 ```
 **What it looks like after rendered to .png file:**
 
-![alt text](https://raw.githubusercontent.com/danysdragons/PlantUML/master/State%20Diagram/stateDiagram.png "A nice state machine diagram, woot!")
+![alt text](https://raw.githubusercontent.com/danysdragons/PlantUML-Usage-Examples/master/State%20Diagram/stateDiagram.png "A nice state machine diagram, woot!")
 
 The renderer is distributed as a single Java *jar* file, ***plantuml.jar***.
 
