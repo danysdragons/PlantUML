@@ -1,6 +1,6 @@
-## **PlantUML Overview** ##
+## **PlantUML - Guide to Basic Usage** ##
 
-Note: I am note the creator of PlantUML, this repository is just intended to illustrate usage of PlantUML.
+Note: I am **not** the creator of PlantUML, and this repository does not host the source code for PlantUML. This repository is just intended *to illustrate basic usage of PlantUML*.
 
 PlantUML provides a declarative syntax for generating various UML diagrams: class diagrams, sequence diagrams, use case diagrams etc.
 
