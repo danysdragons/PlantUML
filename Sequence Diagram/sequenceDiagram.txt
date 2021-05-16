@@ -1,3 +1,7 @@
 @startuml
 Alice -> Bob: test
+Alice -> Bob: another test
+Bob -> Alice: right back at you
+Cindy -> Bob: can I get in on this too?
+Alice -> Cindy: no, this is very exclusive
 @enduml

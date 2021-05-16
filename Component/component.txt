@@ -10,10 +10,13 @@ node "Other Groups" {
   [First Component] --> FTP
 }
 
-cloud {
-  [Example 1]
-}
 
+
+node "Woot" {
+cloud {
+  [Example 2]
+}
+}
 
 database "MySql" {
   folder "This is my folder" {
@@ -22,11 +25,16 @@ database "MySql" {
   frame "Foo" {
     [Frame 4]
   }
+    frame "Bar" {
+    [Frame 5]
+  }
 }
 
 
 [Another Component] --> [Example 1]
 [Example 1] --> [Folder 3]
 [Folder 3] --> [Frame 4]
+[Example 2] --> [Frame 5]
+[Example 2] --> [Another Component]
 
 @enduml
