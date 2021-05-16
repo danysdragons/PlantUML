@@ -9,6 +9,20 @@ else (no)
   __sequence__ and __activity__ diagrams;
 endif
 
+if (I picked my nose?) then (yes)
+  :do not eat it\nthat would be  gross;
+  stop
+else (no)
+  :engage in
+  __cerebratory__ and __celebratory__ activities;
+  :another action;
+  :another nother action;
+  if (something happens) then (true)
+    :true action;
+  else (false)
+    :false action;
+endif
+
 stop
 
 @enduml
