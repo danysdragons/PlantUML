@@ -55,7 +55,19 @@ java -jar plantuml.jar -h
 
 ---
 
-\*\*\* **TODO: Describe the dependency on Graphviz** \*\*\*
+### **Dependency on Graphviz** ###
+
+PlantUML has a dependency on Graphviz and its **dot** executable. For more details, see the link below.
+
+https://plantuml.com/graphviz-dot
+
+\*\*\*Note that when running PlantUML on Windows, installation of Graphviz is no longer required:\*\*\*
+
+>If you use a recent version (that is at least version 1.2020.21), you don't need to manually install GraphViz anymore !
+>
+>A minimalistic graphviz dot.exe is packed into PlantUML and will be automagically unzipped in some temporary folder 
+>
+>This is really the prefered option under Windows.
 
 ---
 
