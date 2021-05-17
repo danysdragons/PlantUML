@@ -18,9 +18,9 @@ else (no)
   :another action;
   :another nother action;
   if (something happens) then (true)
-    :true action;
+    :true action happens now;
   else (false)
-    :false action;
+    :false action happens now;
 endif
 
 stop

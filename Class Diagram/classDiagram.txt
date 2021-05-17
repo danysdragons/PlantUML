@@ -10,6 +10,9 @@ Object .. N2
 N2 .. ArrayList
 
 class Foo
-note left: On last defined class
+N2 .. Foo
+note bottom: On last defined class
+
+
 
 @enduml

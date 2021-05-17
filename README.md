@@ -1,11 +1,10 @@
-## **PlantUML - Guide to Basic Usage** ##
+## **PlantUML - Guide to Basic Usage**
 
-Note: I am **not** the creator of PlantUML, and this repository does not host the source code for PlantUML. This repository is just intended *to illustrate basic usage of PlantUML*.
+Note: I am **not** the creator of PlantUML, and this repository does not host the source code for PlantUML. This repository is just intended _to illustrate basic usage of PlantUML_.
 
 PlantUML provides a declarative syntax for generating various UML diagrams: class diagrams, sequence diagrams, use case diagrams etc.
 
 An example of the markup for a state transition diagram:
-
 
 ```
 @startuml
@@ -35,50 +34,47 @@ State3 --> [*] : Aborted
 
 @enduml
 ```
+
 **What it looks like after rendered to .png file:**
 
 ![alt text](https://raw.githubusercontent.com/danysdragons/PlantUML-Usage-Examples/master/State%20Diagram/stateDiagram.png "A nice state machine diagram, woot!")
 
-The renderer is distributed as a single Java *jar* file, ***plantuml.jar***.
+The renderer is distributed as a single Java _jar_ file, **_plantuml.jar_**. The plantuml.jar file is included in this repository for convenience, but you may want to check the PlantUML website for the most up-to-date version.
 
-With the markup saved as a plain text file, e.g. ***StateDiagram.txt***, generate the rendered diagram using a command like this:
-
-
+With the markup saved as a plain text file, e.g. **_StateDiagram.txt_**, generate the rendered diagram using a command like this:
 
 ```
-java -jar <path to plantuml.jar> <path to spec file>
+java -jar <path to plantuml.jar> <path to diagram specification file>
 ```
 
+There are options to produce alternative output formats, e.g. .svg. To see all available options:
 
+```
+java -jar plantuml.jar -h
+```
 
-There are options to produce alternative output formats, e.g. .svg
+---
 
-Where can I find this magic jar file you ask?
+\*\*\* **TODO: Describe the dependency on Graphviz** \*\*\*
 
-### **Project's Official Website** ###
+---
+
+### **Project's Official Website**
 
 - [PlantUML Home](https://plantuml.com/)
 - [Quick Start](https://plantuml.com/starting)
 - [Quick Start](https://plantuml.com/starting)
-- [Edit Diagrams on the Web](http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
+- [Web Application for Creating PlantUML Diagrams](http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
 
 ---
->**The site linked below is a MUCH more useful and aesthetically appealing guide to using PlantUML than the official home page** 
+
+> **The site linked below is a MUCH more useful and aesthetically appealing guide to using PlantUML than the official home page**
 >
->[Welcome to The Hitchhiker’s Guide to PlantUML!](https://crashedmind.github.io/PlantUMLHitchhikersGuide/)
+> [Welcome to The Hitchhiker’s Guide to PlantUML!](https://crashedmind.github.io/PlantUMLHitchhikersGuide/)
 
 ---
 
-### **Other Useful Sites** ###
+### **Other Useful Sites**
+
 - [GitHub UML Server](https://github.com/plantuml/plantuml-server)
-  - Set up your own PlantUML server, easiest to use the Docker option
-
-
-
-
-
-
-
-
-
-
+  - Set up your own PlantUML server, with the same functionality as the web application provided by the PlantUML Project's offficial website. Using the Docker version is by far the easiest approach.
